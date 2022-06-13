@@ -3,17 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.scss" />
+  <link rel="stylesheet" href="./style.css" />
   <title>My first site: Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
+  <section class="rate">
 <section class="card">
+      <section class="resume">
+        <div class="resume__starLogo">
+          <img  class="star" src="./images/icon-star.svg" alt="représention d'une étoile"/>
+        </div>
+    
+        <article class="resume__intro">
+          <h1>How did we do ?</h1>
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </article>
+      </section>
+      <section class="rating">
+        <article class="rating__btn">
+       <button  type="button" class="rating__btn--btn" value="1" onclick="addRating(value)">1</button>
+       <button  type="button" class="rating__btn--btn" value="2" onclick="addRating(value)">2</button>
+       <button  type="button" class="rating__btn--btn" value="3" onclick="addRating(value)">3</button>
+       <button  type="button" class="rating__btn--btn" value="4" onclick="addRating(value)">4</button>
+       <button  type="button" class="rating__btn--btn" value="5" onclick="addRating(value)">5</button>
+      </article>
+       <button class="rating__btn--submit" onclick="displayRating()">SUBMIT</button>
 
-
+      </section>
 </section>
+</section>
+<section class="greeting">
+  <section class="card">
+    <section class="resume__result">
 
+        <img  class="greeting__star" src="./images/illustration-thank-you.svg" alt="représention "/>
+
+      <div class="thanks"></div>
+    </section>
+    <section class="resume__thanks">
+
+      <article class="resume__outro">
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more suport, don't hesitate to get in touch!</p>
+      </article>
+  </section>
+</section>
   
+</section>
+<script src="./index.js"></script>
 </body>
 </html>

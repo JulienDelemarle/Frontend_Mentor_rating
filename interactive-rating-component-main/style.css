@@ -1,0 +1,270 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    width: 100vw;
+    margin: 0;
+}
+.rate{
+    position: absolute;
+    width: 100vw;
+    margin: auto;
+    top: 3rem; 
+ }
+.greeting {
+    visibility: hidden;
+    position: absolute;
+    width: 100vw;
+    margin: auto;
+    top: 3rem; 
+}
+.card {  
+   
+    margin: auto;
+    width: 30rem;
+    height: 30rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 3rem;
+    position: relative;
+}
+
+.resume {
+    height:50%;
+
+}
+.resume__starLogo{
+    background: hsl(216, 12%, 54%);
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%; 
+    margin: 3rem;
+    position: absolute;
+}
+
+.star {
+    position: absolute;
+    transform: translateY(12.5%) translateX(12.5%);
+    width: 100%;
+}
+.resume__intro {
+    position: absolute;
+    margin:7rem 3rem;
+}
+
+h1 {
+
+    font-family:'Overpass :wght@700', sans-serif;
+    color: hsl(0, 0%, 100%)
+}
+
+p {
+   width:100%;
+    font-family: 'Overpass:wght@400', sans-serif;
+    color: hsl(217, 12%, 63%)
+}
+.rating {
+    margin: 0 3rem;
+    height: 50%;
+}
+.rating__btn{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.rating__btn--btn {
+    margin-top: 2rem;
+    background: hsl(216, 9%, 43%);
+    width:3rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 50%;     
+    color: hsl(217, 12%, 63%)
+}
+.rating__btn--btn:hover{     
+    background-color: hsl(216, 45%, 83%);
+    color: hsl(0, 0%, 100%);     
+}
+.rating__btn--btn:focus{     
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);     
+}
+.rating__btn--submit {
+    margin: 2rem auto;
+    border: 0;
+    border-radius: 2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height:2.5rem
+}
+.rating__btn--submit:hover {
+    
+    background-color:hsl(0, 0%, 100%) ;
+    color: hsl(25, 97%, 53%);
+    
+}
+.resume__result{
+    height: 50%; 
+}
+.greeting__star{
+    display: block;
+    margin: auto;
+    padding: 2rem 0;
+
+}
+
+.thanks {
+    width:60%;
+    margin: auto;  
+    background-color:hsl(218, 4%, 35%);
+    padding:0.8rem 1.5rem;
+    border-radius: 2rem;
+   }
+
+.thanks p{
+ margin: auto;  
+ width:100%;
+text-align: center;
+ color: hsl(25, 97%, 53%); 
+}
+
+.resume__thanks{
+    height: 50%;
+   width: 70%;
+    margin:auto;
+}
+
+.resume__outro {
+    margin: auto;
+    text-align: center;
+}
+.resume__outro h1 {
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 1440px) {
+    .card {   
+        margin: auto;
+        width: 90vw;
+        height: 60vh;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 3rem;
+        position: relative;
+    }
+
+    .resume {
+        height:50%;
+        margin: auto;
+    
+    }
+    .resume__starLogo{
+        background: hsl(216, 12%, 54%);
+        width:3rem;
+        height: 3rem;
+        border-radius: 50%; 
+        margin: 2rem;
+        position: absolute;
+    }
+    
+    .star {
+        position: absolute;
+        transform: translateY(12.5%) translateX(12.5%);
+        width: 100%;
+    }
+    .resume__intro {
+        position: absolute;
+        margin:5rem 3rem;
+    }
+    
+    h1 {
+        font-family:'Overpass :wght@700', sans-serif;
+        color: hsl(0, 0%, 100%)
+    }
+    
+    p {
+        font-family: 'Overpass:wght@400', sans-serif;
+        color: hsl(217, 12%, 63%)
+    }
+    .rating {
+       height:50% ;
+       margin: 0 3rem;
+       
+    }
+    .rating__btn{
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    .rating__btn--btn {
+        margin-top: 2rem;
+        background: hsl(216, 9%, 43%);
+        width:3rem;
+        height: 3rem;
+        border: 0;
+        border-radius: 50%;     
+        color: hsl(217, 12%, 63%)
+    }
+
+   
+    
+    .rating__btn--submit {
+        margin: 2rem auto;
+        border: 0;
+        border-radius: 2rem;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        width: 100%;
+        height:2.5rem
+    }
+  
+
+    .resume__result{
+        height: 50%; 
+    }
+    .greeting__star{
+        display: block;
+        margin: auto;
+        padding: 2rem 0;
+    
+    }
+    
+    .thanks {
+        width:60%;
+        margin: auto;  
+        background-color:hsl(218, 4%, 35%);
+        padding:0.8rem 1.5rem;
+        border-radius: 2rem;
+       }
+    
+    .thanks p{
+     margin: auto;  
+     width:100%;
+    text-align: center;
+     color: hsl(25, 97%, 53%); 
+    }
+    
+    .resume__thanks{
+        height: 50%;
+       width: 70%;
+        margin:auto;
+    }
+    
+    .resume__outro {
+        margin: auto;
+        text-align: center;
+    }
+    .resume__outro h1 {
+    font-size: 20px;
+    }
+}
